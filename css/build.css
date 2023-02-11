@@ -1,0 +1,28 @@
+.build {
+    padding: auto;
+}
+
+.buil__image {
+    width: 200px;
+}
+
+.build__title {
+    display: block;
+    color: #fff;
+    font-family: monospace;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 21ch;
+    
+    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+
+@keyframes typing {
+    from { width: 0}
+}
+    
+@keyframes blink {
+    50% { border-color: transparent}
+}
